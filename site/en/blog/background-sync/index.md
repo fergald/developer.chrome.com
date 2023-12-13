@@ -136,7 +136,7 @@ if ('serviceWorker' in navigator && 'SyncManager' in window) {
   // serviceworker/sync not supported
   postDataFromThePage();
 }
- ```
+```
 
 If service workers or background sync aren’t available, just post the content from the page as you’d do today.
 
